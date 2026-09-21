@@ -1,0 +1,6 @@
+# Runtime dependencies. After installing, run:  python -m playwright install chromium
+customtkinter>=5.2,<6
+playwright>=1.50
+imageio-ffmpeg>=0.6
+requests>=2.32
+cryptography>=42

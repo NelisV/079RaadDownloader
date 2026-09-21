@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venv/Scripts/python -m pytest:*)",
+      "Bash(venv/Scripts/python -m pyflakes:*)",
+      "Bash(venv/Scripts/python main.py --help)",
+      "Bash(venv/Scripts/python scraper.py:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ]
+  }
+}
